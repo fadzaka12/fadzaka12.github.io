@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>FundCure Resources</title>
+    <link>https://fundcure.org/resources/</link>
+    <description>Articles and updates</description>
+    <lastBuildDate>Mon, 01 Sep 2025 03:43:11 +0000</lastBuildDate>
+    <item>
+      <title>Aid‑first vs Pay‑later: Why sequencing matters</title>
+      <link>https://fundcure.org/resources/aid-first-vs-pay-later/</link>
+      <guid>https://fundcure.org/resources/aid-first-vs-pay-later/</guid>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <description>Arrange aid before debt to reduce defaults and stress.</description>
+    </item>
+  </channel>
+</rss>

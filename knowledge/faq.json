@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "generated": "2025-09-01",
+  "faqs": [
+    {
+      "q": "How do estimates work?",
+      "a": "We generate clear, itemized estimates before care using clinic codes.",
+      "audience": [
+        "patients",
+        "hospitals",
+        "donors"
+      ]
+    },
+    {
+      "q": "Is my data safe?",
+      "a": "We apply security controls, consent capture, and local law compliance.",
+      "audience": [
+        "patients",
+        "hospitals",
+        "donors"
+      ]
+    }
+  ]
+}

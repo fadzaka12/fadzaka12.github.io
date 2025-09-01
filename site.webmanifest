@@ -1,0 +1,13 @@
+{
+  "name": "FundCure",
+  "short_name": "FundCure",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

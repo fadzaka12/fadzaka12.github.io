@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact – FundCure</title>
+<meta name="description" content="Contact form and emails.">
+<link rel="icon" href="/favicon.ico">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact – FundCure">
+<meta property="og:description" content="Contact form and emails.">
+<meta property="og:image" content="/images/og-default.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact – FundCure">
+<meta name="twitter:description" content="Contact form and emails.">
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://fundcure.org/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://fundcure.org/contact/"}]}]</script>
+<link rel="preload" href="/assets/css/styles.css" as="style">
+<link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header>
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;height:64px;">
+    <a class="logo" href="/"><img src="/images/logo.svg" alt="FundCure logo" height="24">FundCure</a>
+    <nav class="nav" aria-label="Primary"><a href="/how-it-works/">How It Works</a><a href="/solutions/">Solutions</a><a href="/hospitals/">Hospitals</a><a href="/patients/">Patients</a><a href="/donors/">Donors & CSR</a><a href="/pricing/">Pricing</a><a href="/resources/">Resources</a><a href="/contact/">Contact</a></nav>
+    <a class="lang" href="/ko/contact/" hreflang="ko">KR</a>
+  </div>
+</header>
+<main id="content">
+  
+<section class="container prose" style="padding:2rem 0">
+  <h1>Contact</h1>
+  <p>Email <a href="mailto:hello@fundcure.org">hello@fundcure.org</a> or use the form.</p>
+  <form method="POST" action="https://formspree.io/f/your-id" class="card" style="padding:1rem">
+    <label>Name<br><input name="name" required></label><br>
+    <label>Email<br><input type="email" name="email" required></label><br>
+    <label>Organization<br><input name="org"></label><br>
+    <label>Role<br><input name="role"></label><br>
+    <label>Message<br><textarea name="message" required></textarea></label><br>
+    <label><input type="checkbox" name="consent" required> I agree to the privacy policy.</label><br>
+    <button class="cta" type="submit">Send</button>
+  </form>
+  <p class="alert">GitHub Pages is static hosting. Replace the <kbd>action</kbd> with your form endpoint (e.g., Formspree, Basin, Getform) or use mailto links.</p>
+</section>
+
+</main>
+<footer>
+  <div class="container">
+    <div class="grid cards" style="grid-template-columns:repeat(4,minmax(0,1fr))">
+      <div><strong>Company</strong><br><a href="/about/">About</a><br><a href="/press/">Press</a><br><a href="/careers/">Careers</a></div>
+      <div><strong>Resources</strong><br><a href="/resources/">Blog</a><br><a href="/impact/">Case Studies</a><br><a href="/security/">Security</a></div>
+      <div><strong>Legal</strong><br><a href="/privacy/">Privacy</a><br><a href="/terms/">Terms</a><br><a href="/cookies/">Cookies</a><br><a href="/disclaimer/">Disclaimer</a></div>
+      <div><strong>Contact</strong><br><a href="mailto:hello@fundcure.org">hello@fundcure.org</a><br><span class="badge">Demo Mode</span></div>
+    </div>
+    <p class="small muted">© 2025 FundCure • <a href="/robots.txt">robots.txt</a> • <a href="/sitemap.xml">sitemap.xml</a></p>
+  </div>
+</footer>
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>
